@@ -1,8 +1,8 @@
-Wordly Clone React Native App
+#Wordly Clone React Native App
 
 This is a React Native app that is a clone of the popular word guessing game Wordle.
 
-Features
+##Features
 
 Guess a 5-letter word in 6 tries.
 Letters change color to indicate how close they are to the correct word.
@@ -13,28 +13,31 @@ Keep track of your stats, including wins, losses, and games played.
 Share your results with friends.
 Getting Started
 
-Clone the repository:
-Bash
+##Clone the repository:
+```
 git clone https://github.com/your-username/wordly-clone.git
-Use code with caution.
+```
 
-Install dependencies:
-Bash
+
+##Install dependencies:
+
+```
 cd wordly-clone
 npm install
-Use code with caution.
+```
 
-Run the app on an Android emulator or device:
-Bash
+
+##Run the app on an Android emulator or device:
+```
 npx react-native run-android
-Use code with caution.
+```
 
-Run the app on iOS simulator or device:
-Bash
+##Run the app on iOS simulator or device:
+```
 npx react-native run-ios
-Use code with caution.
+```
 
-Usage
+##Usage
 
 The app is straightforward to use. Here's a quick guide:
 
@@ -47,15 +50,17 @@ If you guess the word correctly, you will see a congratulations message.
 If you don't guess the word correctly in 6 tries, you will see the correct word revealed.
 You can view your stats by tapping the "Stats" button.
 You can share your results with friends by tapping the "Share" button after a game.
-Tech Stack
+
+##Tech Stack
 
 React Native
 Expo (optional)
 AsyncStorage (for storing stats)
-Contributing
+
+##Contributing
 
 Pull requests are welcome. Please make sure to follow the coding style guide and write unit tests for your changes.
 
-License
+##License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
